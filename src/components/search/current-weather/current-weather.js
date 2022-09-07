@@ -1,17 +1,25 @@
 import "./current-weather.css"
+import DateToday from "../time/time";
 
 const CurrentWeather = ({data}) => {
+    
     return (
         <div className="weather">
             <div className="top">
                 <div>
+                    <p>{<DateToday />}</p>
                     <p className="city">{data.city}</p>
-                    <p className="weather-description">{data.weather[0].description}</p>
                 </div>
-                <img alt="weather" className="weather-icon" src={`icons/${data.weather[0].icon}.png`} />
-            </div> 
+                <div>
+                    <p className="temperature">{Math.round(data.main.temp)}°F</p>
+                </div>
+            </div>
+            <div className="middle">
+                    <img alt="weather" className="weather-icon" src={`icons/${data.weather[0].icon}.svg`} />
+                    <p className="weather-description">{data.weather[0].description}</p>
+            </div>
+
             <div className="bottom">
-                <p className="temperature">{Math.round(data.main.temp)}°F</p>
                 <div className="details">
                     <div className="paramenter-row">
                         <span className="parameter-label">Details</span>
