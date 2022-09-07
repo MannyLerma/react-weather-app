@@ -9,10 +9,10 @@ function DateToday () {
     const day = weekDay[d.getDay()]
     const month = months[d.getMonth()]
     const date = d.getDate()
-    const year = d.getFullYear()
+    // const year = d.getFullYear()
 
     return (
-            <p>{day} {month} {date} {year}</p>
+            <p>{day} {month} {date}</p>
     );
 }
 

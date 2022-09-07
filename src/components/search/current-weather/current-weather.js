@@ -7,7 +7,7 @@ const CurrentWeather = ({data}) => {
         <div className="weather">
             <div className="top">
                 <div>
-                    <p>{<DateToday />}</p>
+                    <p className="date">{<DateToday />}</p>
                     <p className="city">{data.city}</p>
                 </div>
                 <div>

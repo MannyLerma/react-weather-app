@@ -1,23 +1,54 @@
 .weather {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-self: center;
 }
 
+/* Left side of current weather tab */
 .top {
+    margin: 40px auto;
     width: 25%;
 }
 
+.date {
+    /* font-size: 19px; */
+    margin-bottom: -15px;
+}
+
+.city {
+    font-size: 47px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.temperature {
+    margin: 95px 0 0 0;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+/* Middle section of Current Weather */
 .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
     text-align: center;
 }
 
 .weather-icon {
-    width: 75%;
+    margin: 0 0 -60px 0;
+    width: 60%;
+    align-self: center;
+}
+
+.weather-description {
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .bottom {
+    margin: 40px auto;
     width: 25%;
 }
