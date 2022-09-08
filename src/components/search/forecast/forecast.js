@@ -1,3 +1,4 @@
+import './forecast.css';
 import {
     Accordion,
     AccordionItem,
@@ -16,7 +17,7 @@ const Forecast = ({ data }) => {
 
     return (
         <>
-            <label className="title">Daily</label>
+            <label className="title">7-Day Forecast</label>
             <Accordion allowZeroExpanded>
                 {data.list.slice(0, 7).map((item, idx) => (
                     <AccordionItem key={idx}>
@@ -59,7 +60,7 @@ const Forecast = ({ data }) => {
                             </div>
                         </AccordionItemPanel>
                     </AccordionItem>
-                ))};
+                ))}
             </Accordion>
         </>
     );
