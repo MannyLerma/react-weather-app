@@ -24,7 +24,7 @@
 }
 
 .temperature {
-    margin: 42px 0 0 0;
+    margin: 55px 0 0 0;
     font-size: 120px;
     font-weight: bold;
 }
@@ -40,7 +40,7 @@
 
 .weather-icon {
     margin: 0;
-    width: 50%;
+    width: 40%;
     align-self: center;
 }
 
@@ -48,6 +48,7 @@
     margin: 0;
     font-size: 47px;
     font-weight: bold;
+    margin-top: -15px;
 }
 
 
