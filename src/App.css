@@ -1,13 +1,20 @@
 * {
-  background-color: white;
   font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.searchbar {
+  color: black;
 }
 
 .container {
   max-width: 1080px;
   margin: 20px auto;
+  padding: 30px 50px;
   display: flex;
   flex-direction: column;
+  background-color: #296A8D;
+  color: white;
 }
 
 p {

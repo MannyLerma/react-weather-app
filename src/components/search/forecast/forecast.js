@@ -17,15 +17,15 @@ const Forecast = ({ data }) => {
 
     return (
         <>
-            <label className="title">7-Day Forecast</label>
+            <label className="title">5-Day Forecast</label>
             <Accordion allowZeroExpanded>
-                {data.list.slice(0, 7).map((item, idx) => (
+                {data.list.slice(0, 5).map((item, idx) => (
                     <AccordionItem key={idx}>
                         <AccordionItemHeading>
                             <AccordionItemButton>
                                 <div className="daily-item">
+                                <label className="day">{forecastDays[idx]}</label>
                                     <img alt="weather" className="icon-small" src={`icons/${item.weather[0].icon}.svg`} />
-                                    <label className="day">{forecastDays[idx]}</label>
                                     <label className="description">{item.weather[0].description}</label>
                                     <label className="min-max">{Math.round(item.main.temp_min)}°F / {Math.round(item.main.temp_max)}°F </label>
                                 </div>
