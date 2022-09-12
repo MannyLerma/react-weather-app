@@ -34,12 +34,13 @@
 .middle {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     width: 30%;
     text-align: center;
-    background-color: #215B75;
+    background: linear-gradient(#0569ba, #6caadc08);
     border-radius: 25px;
-    margin-top: 45px;
+    margin: 55px 0 15px 0;
+    padding: 6px 25px 0 25px;
 }
 
 .weather-icon {
@@ -52,13 +53,13 @@
     margin: 0;
     font-size: 40px;
     font-weight: bold;
-    line-height: 10px;
+    line-height: 25px;
 }
 
 
 /* Right Section of Current Weather */
 .bottom {
-    margin: 55px 0 0 0;
+    margin: 70px 0 0 0;
     width: 18%;
 }
 
@@ -66,7 +67,7 @@
     display: inline-flex;
     flex-direction: column;
     align-items: end;
-    gap: 18px;
+    gap: 24px;
 }
 
 .parameter-label-title {

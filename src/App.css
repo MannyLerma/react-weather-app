@@ -9,12 +9,13 @@
 
 .container {
   max-width: 1080px;
-  margin: 20px auto;
-  padding: 30px 50px;
+  margin: 10px auto;
+  padding: 20px 50px;
   display: flex;
   flex-direction: column;
-  background-color: #296A8D;
+  background: linear-gradient(#6CAADC, #0060AE);
   color: white;
+  border-radius: 25px;
 }
 
 p {
