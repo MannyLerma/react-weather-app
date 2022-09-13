@@ -33,28 +33,28 @@ const Forecast = ({ data }) => {
                         </AccordionItemHeading>
                         <AccordionItemPanel>
                             <div className="daily-details-grid">
-                                <div className="daily-details-grid-item">
+                                {/* <div className="daily-details-grid-item">
                                     <label>Pressure</label>
                                     <label>{item.main.pressure} hPa</label>
-                                </div>
+                                </div> */}
                                 <div className="daily-details-grid-item">
-                                    <label>Humidity</label>
+                                    <label><b>Humidity:</b></label>
                                     <label>{item.main.humidity}%</label>
                                 </div>
-                                <div className="daily-details-grid-item">
+                                {/* <div className="daily-details-grid-item">
                                     <label>Clouds</label>
                                     <label>{item.clouds.all} hPa</label>
-                                </div>
+                                </div> */}
                                 <div className="daily-details-grid-item">
-                                    <label>Wind speed:</label>
+                                    <label><b>Wind speed:</b></label>
                                     <label>{item.wind.speed} m/s</label>
                                 </div>
-                                <div className="daily-details-grid-item">
+                                {/* <div className="daily-details-grid-item">
                                     <label>Sea level:</label>
                                     <label>{item.main.sea_level}m</label>
-                                </div>
+                                </div> */}
                                 <div className="daily-details-grid-item">
-                                    <label>Feels like:</label>
+                                    <label><b>Feels like:</b></label>
                                     <label>{Math.round(item.main.feels_like)}°F</label>
                                 </div>
                             </div>

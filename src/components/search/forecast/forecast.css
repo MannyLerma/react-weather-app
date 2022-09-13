@@ -11,6 +11,7 @@
 div.accordion {
     display: flex;
     flex-direction: row;
+    position: relative;
     column-gap: 8px;
 }
 
@@ -29,13 +30,20 @@ div.accordion {
 .daily-details-grid {
     display: flex;
     flex-direction: column;
-    background-color: #949494;
+    position: relative;
+    background: linear-gradient(#3681C1, #0664AD);
     align-items: center;
-    height: 170px;
-    justify-content: center;
-    border-radius: 5px;
+    height: 80px;
+    justify-content: space-evenly;
+    border-radius: 25px;
     cursor: pointer;
-    margin-top: -169px;
+    margin-top: -90px;
+    z-index: 0;
+}
+
+.daily-details-grid-item {
+    display: flex;
+    gap: 6px;
 }
 
 
@@ -51,17 +59,17 @@ label.description {
     font-weight: bold;
 }
 
-.daily-details-grid-item {
+/* .daily-details-grid-item {
     background-color: #949494;
 }
 
 .daily-details-grid label {
     background-color: #949494;
-}
+} */
 
 label {
     text-align: left;
-    font-size: 15px;
+    font-size: 16px;
 }
 /* Images */
 
