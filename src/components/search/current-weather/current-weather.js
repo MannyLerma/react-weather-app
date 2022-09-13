@@ -11,7 +11,13 @@ const CurrentWeather = ({data}) => {
                     <p className="city">{data.city}</p>
                 </div>
                 <div>
-                    <p className="temperature">{Math.round(data.main.temp)}°F</p>
+                    <p className="temperature">{Math.round(data.main.temp)}
+                        <div className="conversion-container">
+                            <p className="degrees active">°F</p>
+                            {/* <span className="divider"></span>
+                            <p className="degrees"> °C</p> */}
+                        </div>
+                    </p>
                 </div>
             </div>
             <div className="middle">
