@@ -120,3 +120,27 @@
     margin: 3px 10px;
     background-color: white;
 }
+
+
+@media (max-width: 1024px) {
+    
+    .top {
+        width: 38%;
+    }
+
+    .temperature {
+        margin: 80px 0 0 0;
+        font-size: 140px;
+    }
+
+    .middle {
+        width: 25%;
+        justify-content: center;
+    }
+
+    .bottom {
+        width: 21%;
+    }
+
+    
+}

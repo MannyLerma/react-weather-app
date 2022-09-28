@@ -21,3 +21,18 @@
 p {
     font-size: 21px;
 }
+
+/* Horizontal iPad Breakpoint*/
+@media (max-width: 1366px) {
+
+  body {
+      margin: 48px;
+  }
+
+  .container {
+      max-width: 1134px;
+      height: 830px;
+      padding: 48px 48px;
+      justify-content: space-between;
+  }
+}
