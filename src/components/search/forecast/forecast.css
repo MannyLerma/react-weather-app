@@ -134,10 +134,27 @@ label {
     }
 }
 
+
+/* Horizontal tablet */
 @media (max-width: 1366px) {
 
-    .temperature {
-        
+    .title {
+        margin: 0 0 -20px 0;
     }
 
 }
+
+@media (max-width: 390px) {
+
+    body {
+      margin: 0px;
+      background: #0060AE;
+    }
+  
+    .container {
+      margin: 0px 0px;
+      padding: 20px;
+      border-radius: 0px;
+      background: none;
+    }
+  }

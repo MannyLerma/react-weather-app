@@ -144,3 +144,72 @@
 
     
 }
+
+/* Horizontal tablet */
+@media (max-width: 1366px) {
+
+    .weather {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .weather-icon {
+        width: 60%;
+        margin: 22px 0 0 0;
+    }
+
+    .weather-description {
+        line-height: 50px;
+        font-size: 36px;
+    }
+
+    .temperature {
+        top: 460px;
+        display: flex;
+        margin: 0 50px;
+        font-size: 150px;
+    }
+
+    .top {
+        width: 100%;
+    }
+
+    .middle {
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        background: linear-gradient(#0570c7, #6caadc08);
+    }
+    
+    .bottom {
+        width: 100%;
+        margin: 180px 0 45px 0;
+    }
+
+    .details {
+        gap: 8px;
+        align-items: baseline;
+        flex-direction: row;
+    }
+
+    .parameter-row {
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+    }
+
+    .parameter-label {
+        font-size: 18px;
+    }
+
+    .parameter-value {
+        font-size: 19px;
+    }
+
+    .degrees.active {
+        line-height: 90px;;
+    }
+
+}
+
