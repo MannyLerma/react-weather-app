@@ -157,4 +157,39 @@ label {
       border-radius: 0px;
       background: none;
     }
+
+    .title {
+        margin-bottom: 25px;
+    }
+
+    .daily-item {
+        height: 53px;
+    }
+
+    label.day {
+        font-size: 19px;
+    }
+
+    .icon-small {
+        visibility: hidden;
+        width: 0;
+    }
+
+    label.description {
+        font-size: 19px;
+    }
+
+    label.min-max {
+        font-size: 19px;
+    }
+
+    .daily-details-grid-item {
+        font-size: 21px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .daily-details-grid-item > label {
+        font-size: 19px;
+    }
   }

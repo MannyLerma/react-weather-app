@@ -212,4 +212,11 @@
     }
 
 }
+    @media (max-width: 390px) {
+
+        .temperature {
+            top: 450px;
+        }
+ }
+
 
